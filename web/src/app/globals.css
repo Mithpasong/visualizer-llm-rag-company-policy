@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* 다크 테마만 사용한다. */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #020617;
+  color: #e2e8f0;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", system-ui, sans-serif;
+}
+
+/* 답변(마크다운) 기본 모양 */
+.answer p + p,
+.answer p + ul,
+.answer p + ol,
+.answer ul + p,
+.answer ol + p {
+  margin-top: 0.6em;
+}
+.answer ul {
+  list-style: disc;
+  padding-left: 1.25em;
+}
+.answer ol {
+  list-style: decimal;
+  padding-left: 1.25em;
+}
+.answer li + li {
+  margin-top: 0.2em;
+}
+.answer strong {
+  font-weight: 700;
+  color: #ffffff;
+}
+.answer em {
+  color: #c7d2fe;
+}
