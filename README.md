@@ -8,6 +8,7 @@
 ![Gemini](https://img.shields.io/badge/Gemini-3.5_Flash-8E75B2?logo=googlegemini&logoColor=white)
 ![three.js](https://img.shields.io/badge/three.js-R3F-000000?logo=threedotjs)
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 > ℹ️ 본 시스템은 Mithpasong이 임의로 작성한 사내 규정 및 가상의 데이터를 기반으로 구축된 프로젝트입니다. 실제 규정이나 운영 정보를 반영한 것이 아님을 알려드립니다.
 
@@ -280,6 +281,12 @@ npm run dev                        # http://localhost:3000
 - **로그인 대신 익명 ID.** 브라우저마다 만든 UUID로 대화를 구분해요. 같은 브라우저에서만 대화가 보여요.
 - **무료 API 한도.** 이 프로젝트는 무료 Gemini API를 함께 사용해서 사용량이 많으면 원활하게 작동하지 않을 수 있어요.
 
-## 📜 고지
+## 📜 라이선스
+
+[MIT License](LICENSE) © 2026 Mithpasong
+
+웹 폰트 [Pretendard](https://github.com/orioncactus/pretendard)는 SIL Open Font License 1.1을 따르며, npm 패키지로 설치해서 사용해요.
+
+## ⚠️ 고지
 
 이 저장소의 사내 규정집, 회사 이름, 조직, 수치는 모두 **가상**이에요. 실제 회사의 규정이나 운영 정보를 반영하지 않아요.
