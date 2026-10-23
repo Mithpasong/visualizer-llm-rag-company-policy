@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+/* 모든 글꼴은 Pretendard를 쓴다. (layout.tsx 에서 웹폰트를 불러온다) */
+@theme {
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo",
+    "Malgun Gothic", sans-serif;
+}
+
 /* 다크 테마만 사용한다. */
 :root {
   color-scheme: dark;
@@ -8,7 +14,15 @@
 body {
   background: #020617;
   color: #e2e8f0;
-  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", system-ui, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* 입력창·버튼은 브라우저 기본 글꼴을 쓰므로 따로 맞춘다. */
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
 }
 
 /* 답변(마크다운) 기본 모양 */
