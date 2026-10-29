@@ -1,5 +1,7 @@
 # 🧭 Visualizer LLM RAG — Company Policy
 
+### 🚀 라이브 데모: **[visualizer-llm-rag-company-policy.vercel.app](https://visualizer-llm-rag-company-policy.vercel.app/)**
+
 **사내 규정집 PDF를 Vector DB로 검색해 근거 조문과 함께 답하고, 그 검색 과정을 3D로 보여주는 RAG 챗봇**
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs)
